@@ -1,0 +1,27 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+releases = "<2.0,>=0.6.1"
+alabaster = "==0.7.12"
+pytest = "==3.2.5"
+pytest-relaxed = "==1.1.4"
+pytest-cov = "==2.5.1"
+mock = "==1.0.1"
+flake8 = "==2.4.0"
+invocations = "<2.0,>=1.4.0"
+twine = "==1.11.0"
+coverage = "==4.5.1"
+codecov = "==2.0.15"
+certifi = "==2018.4.16"
+semantic_version = ">=2.4,<2.5"
+readme_renderer = "==17.2"
+Sphinx = "<1.7,>=1.4"
+
+[packages]
+invoke = {editable = true,path = "."}
+
+[requires]
+python_version = "3.7"
